@@ -1,0 +1,55 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.jfm
+*.pdb
+*.opendb
+*.cache
+*.msscci
+*.vssscc
+*.ncb
+*.aps
+*.bak
+*.backup
+*.BLOB
+*.sdf
+*.db
+
+# Dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+_ReSharper*/
+*.DotSettings.user
+*.nunit.xml
+*.coverage
+*.coveragexml
+TestResult.xml
+*.testresult
+*.trx
+*.xunit.xml
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
