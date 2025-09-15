@@ -1,6 +1,6 @@
-# 📘 API - Gestão de Alunos e Aulas
+# API - Gestão de Alunos e Aulas
 
-## 🚀 Visão Geral
+## Visão Geral
 API desenvolvida em **.NET 8**, organizada em camadas, com suporte a **Swagger** para documentação.  
 Funcionalidades principais:
 - Cadastro de alunos e aulas
@@ -11,7 +11,7 @@ Os dados são armazenados em memória apenas durante a execução.
 
 ---
 
-## 📋 Requisitos
+## Requisitos
 
 - **.NET 8 SDK** ou superior → [Download](https://dotnet.microsoft.com/download/dotnet/8.0)  
 - **IDE** recomendada:
@@ -21,7 +21,7 @@ Os dados são armazenados em memória apenas durante a execução.
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 - `Microsoft.AspNetCore.OpenApi`
 - `Swashbuckle.AspNetCore`
@@ -30,7 +30,7 @@ Os dados são armazenados em memória apenas durante a execução.
 
 ---
 
-## ▶️ Executando o Projeto
+## Executando o Projeto
 
 1. Clone este repositório ou extraia o projeto.
 2. No terminal, navegue até a pasta do projeto (onde está o `.csproj`).
@@ -48,7 +48,7 @@ Os dados são armazenados em memória apenas durante a execução.
 
 ---
 
-## 📖 Documentação da API (Swagger)
+## Documentação da API (Swagger)
 
 - Ambiente de desenvolvimento abre automaticamente o Swagger no navegador.
 - Caso contrário, acesse manualmente:
@@ -59,7 +59,7 @@ http://localhost:55001/swagger
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 /Controllers     -> Endpoints da API
@@ -71,7 +71,7 @@ http://localhost:55001/swagger
 
 ---
 
-## 🧪 Testando a API
+## Testando a API
 
 Exemplo de request com `cURL`:
 
@@ -100,7 +100,7 @@ Exemplo de JSON para criação de aula:
 
 ---
 
-## ⚙️ Notas de Desenvolvimento
+## Notas de Desenvolvimento
 
 - Os dados são reiniciados sempre que a aplicação é parada.
 - Para persistência real, substitua os repositórios em memória por integração com banco de dados.
